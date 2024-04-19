@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+}
+body {
+    background-color: #FFFBFD;
+    margin: 0;
+    font-family: "catamaran", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #040303;
+    text-align: center;
+    align-content: center;
+}
+h2 {
+    font-family: "catamaran", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    color:#040303;
+}
+h3 {
+    font-family: "catamaran", sans-serif;
+    font-size: 40px;
+    font-weight:400;
+    font-style: normal;
+    color:#040303; 
+}
+.nav {
+    align-items: center;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+ }
+ .h-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.material-symbols-outlined {
+    font-size: 35px !important;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .col-6 {
+    flex-basis: 50%;
+    align-content: center;
+}
+ .col-4 {
+    flex-basis: 33.333%;
+    align-content: center;
+}
+ .background-color {
+    background-color:#FBE2E6;
+    width: 100%;
+    align-content: center;
+    padding: 20px;
+    object-fit: contain;
+    height:3247px;
+}
+ .hero-image {
+    background-image: url("../Images/Catering.png");
+    background-size: cover;
+    background-position: Center;
+    height: 608 px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.hero-text {
+    max-width: 1032px;
+    padding: 62px 0;
+    flex-basis: 100%;
+    color:black;
+}
+.hero-container{
+    max-width: 510px;
+}
+.btn{
+    color: #912A2F;
+    background-color: #FFFBFD ;
+    padding: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "catamaran", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #912A2F;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-2 {
+    color:#FFFBFD;
+    background-color: #912A2F;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "catamaran", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #FFFBFD;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer {
+    display:flex;
+    justify-content: center;
+    background-color: FFFBFD;
+    color: #040303;
+    padding: 20px;
+}
+.mb-3 {
+    margin-bottom: 12px;
+}
+@media (max-width:500px){
+    .nav-links {
+        display: none;
+        justify-content: space-between;
+    }
+    .nav {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+    .h-menu {
+        display: inline-block;
+    }
+    .col-4, .col-6 {
+        flex-basis: 100%;
+    }
+    .logo-t {
+        width: 150px;
+    }
+    .background-color{
+        width: unset;
+        height: unset;
+    }
+    .footer {
+        flex-wrap: wrap;
+        text-align:center;
+    }
+    .logo {
+        width:400px;
+    }
+    .h2 {
+        font-size: 5px;
+    }
+}
